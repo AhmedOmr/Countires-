@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="Register" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#9E8D32</item>
+        <item name="colorAccent">#352C02</item>
+    </style>
+
+    <style name="VerificationCode" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">#6B8142</item>
+        <item name="colorAccent">#34490C</item>
+    </style>
+
+    <style name="Beg" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#9E8D32</item>
+        <item name="colorAccent">#352C02</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Hom" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#AABE85</item>
+        <item name="colorPrimaryDark">#AABE85</item>
+        <item name="colorAccent">#34490C</item>
+    </style>
+
+    <style name="Homeactivity" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#9E8D32</item>
+        <item name="colorPrimaryDark">#817328</item>
+        <item name="colorAccent">#352C02</item>
+    </style>
+</resources>

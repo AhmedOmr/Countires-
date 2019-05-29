@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3BF56"
+    tools:context=".Begin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textstarted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Get started with:"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/googlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textstarted"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="sign_withGoogle"
+            android:scaleType="fitXY"
+            android:src="@drawable/goog" />
+
+        <ImageView
+            android:id="@+id/phonlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textstarted"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/googlogin"
+            android:onClick="Verify_phone"
+            android:scaleType="fitXY"
+            android:src="@drawable/pho" />
+
+        <Button
+            android:id="@+id/signupemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phonlogin"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/btnsignemail"
+            android:onClick="sign_up"
+            android:padding="20dp"
+            android:text="Sign up with email"
+            android:textAllCaps="false"
+            android:textColor="#070000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signupemail"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:padding="5dp"
+            android:text="Have an account ?"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/regbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signupemail"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/notbtn"
+            android:onClick="LogIn_withemailandPass"
+            android:padding="5dp"
+            android:text=" Log in"
+            android:textColor="#1931B9"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</FrameLayout>
